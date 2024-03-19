@@ -59,7 +59,7 @@ Terdapat 2 jenis tipe data di PHP.
 
 - Kita bisa menggunakan perintah `var_dump` untuk debugging variable.
 
-        1. Tipe data Number:
+  1. Tipe data Number:
 
   ```PHP
   <?php
@@ -90,7 +90,7 @@ Terdapat 2 jenis tipe data di PHP.
   Underscore in number : int(1241241241)
   ```
 
-        2. Tipe Data Float(Pecahan):
+  2. Tipe Data Float(Pecahan):
 
   ```PHP
   echo "Floating Point : ";
@@ -428,4 +428,24 @@ Terdapat 2 jenis tipe data di PHP.
   ![aritma2](pic/aritma2.png)
 
 - Kode Operasi Aritmatik
-  !
+
+  ```PHP
+    $a = 10;
+    $b = 10;
+
+    $result = $a + $b;
+    var_dump($result);
+
+    //Output:
+    int(20)
+    //Bisa juga menambahkan "-"(tanda minus), agar hasilnya menjadi negatif.
+  ```
+
+---
+
+### 11. Oparator Penugasan
+
+- Operator penugasan di PHP menggunakan `=` (sama dengan).
+
+- Operator penugasan
+  ![image](Pic/)
