@@ -12,3 +12,4 @@ $total += $chicken;
 $total += $orangeJuice;
 
 var_dump($total);
+

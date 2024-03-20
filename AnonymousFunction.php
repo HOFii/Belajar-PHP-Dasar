@@ -25,11 +25,11 @@ sayGoodBye("Elaina", $filterFunction);
 $firstName = "Gusti";
 $lastName = "Alifiraqsha";
 
-$sayHelloEko = function () use ($firstName, $lastName) {
+$sayHelloGusti = function () use ($firstName, $lastName) {
     echo "Hello $firstName $lastName" . PHP_EOL;
 };
-$sayHelloEko();
+$sayHelloGusti();
 
 $firstName = "Farel";
 $lastName = "Mercys";
-$sayHelloEko();
+$sayHelloGusti();

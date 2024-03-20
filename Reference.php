@@ -4,7 +4,7 @@ $name = "Gusti";
 
 $otherName = &$name;
 
-$otherName = "Farel";
+$otherName = "Elaina";
 
 echo $name . PHP_EOL;
 

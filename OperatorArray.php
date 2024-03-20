@@ -13,13 +13,13 @@ $full = $first + $last;
 var_dump($full);
 
 $a = [
-    "first_name" => "Gusti",
-    "last_name" => "Alifiraqsha"
+    "first_name" => "Kiana",
+    "last_name" => "Kaslana"
 ];
 
 $b = [
-    "last_name" => "Alifiraqsha",
-    "first_name" => "Gusti"
+    "last_name" => "Kaslana",
+    "first_name" => "Kawai"
 ];
 
 var_dump($a == $b);
